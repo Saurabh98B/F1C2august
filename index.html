@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>F1C1 August</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="#">Library Systems</a>
+      <div>
+        <a href="#Books">Books</a>
+        <a href="#Register">Register</a>
+        <a href="#">About Us</a>
+        <a href="#">Logout</a>
+      </div>
+    </nav>
+    <section id="books">
+      <div id="books-div">
+        <h3 id="books-heading">Books</h3>
+        <table>
+          <tr>
+            <th>Book ID</th>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Genere</th>
+            <th>Available</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>
+              <a href="#">Book Title 1</a>
+              <table>
+                <tr>
+                  <td>Publication date: 2000</td>
+                </tr>
+                <tr>
+                  <td>Page count: 250</td>
+                </tr>
+                <tr>
+                  <td>ISBN: 573283564</td>
+                </tr>
+              </table>
+            </td>
+            <td>Author 1</td>
+            <td>Genre 1</td>
+            <td>Available</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>
+              <a href="#">Book Title 2</a>
+              <table>
+                <tr>
+                  <td>Publication date: 2005</td>
+                </tr>
+                <tr>
+                  <td>Page count: 300</td>
+                </tr>
+                <tr>
+                  <td>ISBN: 573283565</td>
+                </tr>
+              </table>
+            </td>
+            <td>Author 2</td>
+            <td>Genre 2</td>
+            <td>Available</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>
+              <a href="#">Book Title 3</a>
+              <table>
+                <tr>
+                  <td>Publication date: 2010</td>
+                </tr>
+                <tr>
+                  <td>Page count: 350</td>
+                </tr>
+                <tr>
+                  <td>ISBN: 573283566</td>
+                </tr>
+              </table>
+            </td>
+            <td>Author 3</td>
+            <td>Genre 3</td>
+            <td>Available</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+    <section id="Register">
+      <div id="Register-div">
+        <h3>Register</h3>
+        <form>
+          <label for="fname">First Name:</label>
+          <input type="text" id="fname" required>
+          <label for="lname">Last Name:</label>
+          <input type="text" id="lname" required>
+          <label for="dob">Date of Birth:</label>
+          <input type="date" id="dob" required>
+          <label for="age">Age:</label>
+          <input type="number" id="age" required>
+          <label for="email">Email</label>
+          <input type="email" id="email" required>
+          <label for="pass">Password</label>
+          <input type="password" id="pass" required>
+          <label for="cpass">Confirm Password</label>
+          <input type="password" id="cpass" required>
+          <button type="submit">Register</button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
